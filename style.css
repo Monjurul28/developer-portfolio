@@ -6,6 +6,9 @@ body {
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 #paragraph{
     text-align: justify;
 }
@@ -57,4 +60,37 @@ h1 {
     background-image: url(Image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.other-h1{
+    margin-left: 30px;
+}
+.color{
+    color: orange;
+}
+.backgroud-area{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+.experience-item{
+   
+    width: 50%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 5px;
+    border-radius: 10px;
+    
+    box-shadow: 10px 10px 30px gray;
+}
+#full{
+    border-left: 5px solid blue;
+    border-right: 5px solid turquoise;
+}
+#full-2{
+    border-left: 5px solid red;
+    border-right: 5px solid green;
+}
+footer p{
+    text-align: center;
 }
